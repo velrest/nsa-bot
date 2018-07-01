@@ -11,7 +11,7 @@ http
     res.write("This is to keep heroku happy.");
     res.end();
   })
-  .listen(8080);
+  .listen(process.env.PORT || 8080);
 
 const commands = {
   cleanall: message => {
