@@ -1,6 +1,6 @@
-# NsaBot
+# nsa-bot
 
-**TODO: Add description**
+Your personal Discord spy!
 
 ## Installation
 
