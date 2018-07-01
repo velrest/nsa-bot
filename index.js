@@ -2,7 +2,6 @@ const Discord = require('discord.js');
 const moment = require('moment')
 const config = require('./config.json')
 const client = new Discord.Client();
-console.log(process.env)
 client.login(process.env.BOT_KEY);
 
 const commands = {
